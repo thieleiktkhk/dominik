@@ -1,0 +1,49 @@
+0000.144 (R) [notice] Looking for db archive: file name: backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz
+0000.144 (R) [notice] Archive is expected to be size: 123.9 KB: OK
+0000.145 (R) [notice] Looking for plugins archive: file name: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip
+0000.145 (R) [notice] Archive is expected to be size: 6575 KB: OK
+0000.145 (R) [notice] Looking for themes archive: file name: backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip
+0000.145 (R) [notice] Archive is expected to be size: 5594.7 KB: OK
+0000.146 (R) [notice] Looking for uploads archive: file name: backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip
+0000.146 (R) [notice] Archive is expected to be size: 5449.5 KB: OK
+0000.146 (R) [notice] Looking for others archive: file name: backup_2018-03-14-1221_affen24de_7fa400657e61-others.zip
+0000.146 (R) [notice] Archive is expected to be size: 0.2 KB: OK
+0000.149 (R) [notice] Unpacking backup... (backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz, 0.1 Mb)
+0000.150 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.157 (R) [notice] Enabling Maintenance mode&#8230;
+0000.158 (R) [notice] Backup of: http://thiele.ikt.khk.ee/wordpress
+0000.160 (R) [notice] Content URL: http://thiele.ikt.khk.ee/wordpress/wp-content
+0000.160 (R) [notice] Uploads URL: http://thiele.ikt.khk.ee/wordpress/wp-content/uploads
+0000.160 (R) [notice] Old table prefix: wp_
+0000.160 (R) [notice] Site information: multisite = 0
+0000.161 (R) [notice] New table prefix: wp_
+0000.162 (R) [notice] Processing table (MyISAM):  wp_options
+0000.205 (R) [notice] Processing table (MyISAM):  wp_users
+0000.207 (R) [notice] Processing table (MyISAM):  wp_usermeta
+0000.210 (R) [notice] Processing table (MyISAM):  wp_commentmeta
+0000.211 (R) [notice] Processing table (MyISAM):  wp_comments
+0000.213 (R) [notice] Processing table (MyISAM):  wp_links
+0000.215 (R) [notice] Processing table (MyISAM):  wp_postmeta
+0000.223 (R) [notice] Processing table (MyISAM):  wp_posts
+0000.234 (R) [notice] Processing table (MyISAM):  wp_term_relationships
+0000.236 (R) [notice] Processing table (MyISAM):  wp_term_taxonomy
+0000.238 (R) [notice] Processing table (MyISAM):  wp_termmeta
+0000.239 (R) [notice] Processing table (MyISAM):  wp_terms
+0000.241 (R) [notice] Disabling Maintenance mode&#8230;
+0000.241 (R) [notice] Finished: lines processed: 41 in 0.09 seconds
+0000.241 (R) [notice] Cleaning up rubbish...
+0000.247 (R) [notice] Unpacking backup... (backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip, 6.4 Mb)
+0000.549 (R) [notice] Moving old data out of the way...
+0000.592 (R) [notice] Moving unpacked backup into place...
+0000.635 (R) [notice] Cleaning up rubbish...
+0000.637 (R) [notice] Unpacking backup... (backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip, 5.5 Mb)
+0000.695 (R) [notice] Moving old data out of the way...
+0000.704 (R) [notice] Moving unpacked backup into place...
+0000.712 (R) [notice] Cleaning up rubbish...
+0000.713 (R) [notice] Unpacking backup... (backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip, 5.3 Mb)
+0000.737 (R) [notice] Moving old data out of the way...
+0000.741 (R) [notice] Moving unpacked backup into place...
+0000.744 (R) [notice] Cleaning up rubbish...
+0000.746 (R) [notice] Unpacking backup... (backup_2018-03-14-1221_affen24de_7fa400657e61-others.zip, 0 Mb)
+0000.747 (R) [notice] Cleaning up rubbish...
+0000.758 (R) [notice] Restore successful!
