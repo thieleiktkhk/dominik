@@ -1,0 +1,146 @@
+0000.000 (0) Opened log file at time: Wed, 14 Mar 2018 12:21:41 +0000 on http://thiele.ikt.khk.ee/wordpress
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-693.5.2.el7.x86_64 #1 SMP Fri Oct 20 20:32:50 UTC 2017 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 20.3M | 22M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.195 (0) Free space on disk containing Updraft's temporary directory: 372853.1 MB
+0000.198 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.200 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.202 (0) Set semaphore last lock (fd) time to 2018-03-14 12:21:41
+0000.203 (0) Semaphore lock (fd) complete
+0000.207 (0) Backup run: resumption=0, nonce=7fa400657e61, begun at=1521030101 (0s ago), job type=backup
+0000.208 (0) Scheduling a resumption (1) after 300 seconds (1521030401) in case this run gets aborted
+0000.224 (0) Checking if we have a zip executable available
+0000.224 (0) Testing: /usr/bin/zip
+0000.232 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.233 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.234 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.234 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.235 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.242 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.243 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.256 (0) Working binary zip found: /usr/bin/zip
+0000.258 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.259 (0) Creation of backups of directories: beginning
+0000.262 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.488 (0) Total entities for the zip file: 208 directories, 1326 files (0 skipped as non-modified), 21.2 MB
+0000.494 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.499 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.503 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.508 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.512 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.513 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.6 MB, 1326 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.407 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: size is now: 4.90 MB
+0001.413 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 600 files added (on-disk size: 4993.3 KB)
+0001.418 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 700 files added (on-disk size: 4993.3 KB)
+0001.423 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 800 files added (on-disk size: 4993.3 KB)
+0001.428 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 900 files added (on-disk size: 4993.3 KB)
+0001.433 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 1000 files added (on-disk size: 4993.3 KB)
+0001.434 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 1326 files batched, 501 (1002) added so far); re-opening (prior size: 4993.3 KB)
+0001.613 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 1100 files added (on-disk size: 5727.7 KB)
+0001.618 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 1200 files added (on-disk size: 5727.7 KB)
+0001.622 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip.tmp: 1300 files added (on-disk size: 5727.7 KB)
+0001.944 (0) Created plugins zip (0) - 6575 KB in 1.5 s (4394.5 KB/s) (sha1: 8b508decfc5ed3718124e0609c5f89af5335689c, sha256: 98baae4729ef15f9f7c4734ebc089d87e0809e4e53d9684266509d6c8a23b59d)
+0001.946 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.087 (0) Total entities for the zip file: 45 directories, 246 files (0 skipped as non-modified), 7.4 MB
+0002.092 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.097 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.389 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip.tmp: size is now: 5.50 MB
+0002.542 (0) Created themes zip (0) - 5594.7 KB in 0.5 s (12081.3 KB/s) (sha1: a63e8c7cb178df55e475d309cf7106349a7e3977, sha256: 64e611f46784c48b47bb1a62da6de7617071f5c606b8ea6d942f97b95ab8f8ed)
+0002.544 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0002.544 (0) Looking for candidates to back up in: /home/thieleiktkhk/public_html/wordpress/wp-content/uploads
+0002.545 (0) finding files: 2018: adding to list (1)
+0002.545 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0002.675 (0) Total entities for the zip file: 2 directories, 130 files (0 skipped as non-modified), 5.3 MB
+0002.678 (0) Zip: backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.715 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip.tmp: size is now: 5.30 MB
+0002.838 (0) Created uploads zip (0) - 5449.5 KB in 0.2 s (33052 KB/s) (sha1: 9b04a7abd01f3926740e9d05483308003898b780, sha256: c4ae3c7c3505bb5329136781da68609ad1d7364ce84c2c90688c9f566fe5e2f0)
+0002.840 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.840 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.841 (0) Looking for candidates to back up in: /home/thieleiktkhk/public_html/wordpress/wp-content
+0002.842 (0) finding files: themes: skipping: this is the themes directory
+0002.842 (0) finding files: index.php: adding to list (1)
+0002.842 (0) finding files: plugins: skipping: this is the plugins directory
+0002.843 (0) finding files: uploads: skipping: this is the uploads directory
+0002.843 (0) finding files: upgrade: skipping: excluded by options
+0002.844 (0) finding files: updraft: skipping: this is the updraft directory
+0002.966 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0002.971 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-others.zip.tmp: size is now: 0.00 MB
+0002.975 (0) Created others zip (0) - 0.2 KB in 0 s (17.6 KB/s) (sha1: fd368f255d9244cb745d0251934b39cfd442dba6, sha256: 7572e422182d3d97299efcd593657d1bc2125c5a07b24932acfffe451fd13c66)
+0002.980 (0) Saving backup status to database (elements: 8)
+0002.982 (0) Beginning creation of database dump (WordPress DB)
+0002.984 (0) Testing: /usr/bin/mysqldump
+0002.995 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1218 bytes total)
+0002.996 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0002.999 (0) Table wp_options: Total expected rows (approximate): 187
+0003.025 (0) Table wp_options: Total rows added: 183 in 0.03 seconds
+0003.026 (0) Table wp_options: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_options.table.gz - 108.2 KB)
+0003.029 (0) Table wp_users: Total expected rows (approximate): 1
+0003.031 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0003.032 (0) Table wp_users: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_users.table.gz - 0.6 KB)
+0003.034 (0) Table wp_usermeta: Total expected rows (approximate): 22
+0003.036 (0) Table wp_usermeta: Total rows added: 22 in 0.00 seconds
+0003.037 (0) Table wp_usermeta: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_usermeta.table.gz - 1.1 KB)
+0003.039 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0003.041 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0003.042 (0) Table wp_commentmeta: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0003.044 (0) Table wp_comments: Total expected rows (approximate): 2
+0003.046 (0) Table wp_comments: Total rows added: 2 in 0.00 seconds
+0003.047 (0) Table wp_comments: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_comments.table.gz - 0.9 KB)
+0003.049 (0) Table wp_links: Total expected rows (approximate): 0
+0003.050 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0003.051 (0) Table wp_links: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_links.table.gz - 0.4 KB)
+0003.054 (0) Table wp_postmeta: Total expected rows (approximate): 274
+0003.057 (0) Table wp_postmeta: Total rows added: 274 in 0.00 seconds
+0003.058 (0) Table wp_postmeta: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_postmeta.table.gz - 4.6 KB)
+0003.060 (0) Table wp_posts: Total expected rows (approximate): 95
+0003.066 (0) Table wp_posts: Total rows added: 95 in 0.01 seconds
+0003.067 (0) Table wp_posts: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_posts.table.gz - 8.5 KB)
+0003.069 (0) Table wp_term_relationships: Total expected rows (approximate): 21
+0003.071 (0) Table wp_term_relationships: Total rows added: 21 in 0.00 seconds
+0003.072 (0) Table wp_term_relationships: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0003.074 (0) Table wp_term_taxonomy: Total expected rows (approximate): 9
+0003.076 (0) Table wp_term_taxonomy: Total rows added: 9 in 0.00 seconds
+0003.077 (0) Table wp_term_taxonomy: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0003.079 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0003.080 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0003.081 (0) Table wp_termmeta: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_termmeta.table.gz - 0.4 KB)
+0003.083 (0) Table wp_terms: Total expected rows (approximate): 9
+0003.085 (0) Table wp_terms: Total rows added: 9 in 0.00 seconds
+0003.085 (0) Table wp_terms: finishing file (backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_terms.table.gz - 0.5 KB)
+0003.088 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_options.table.gz (1/12): adding to final database dump
+0003.112 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_users.table.gz (2/12): adding to final database dump
+0003.113 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0003.113 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0003.113 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0003.114 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_links.table.gz (6/12): adding to final database dump
+0003.115 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0003.117 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0003.119 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0003.120 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0003.121 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0003.121 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0003.122 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz: finished writing out complete database file (104 KB)
+0003.127 (0) Total database tables backed up: 12 (backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz, size: 126914, sha256)
+0003.131 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0003.132 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0003.132 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0003.132 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-others.zip: others: This file has not yet been successfully uploaded: will queue
+0003.133 (0) backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.133 (0) Saving backup history. Total backup size: 17.3 MB
+0003.135 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0003.137 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.138 (0) No remote despatch: user chose no remote backup service
+0003.139 (0) Recording as successfully uploaded: backup_2018-03-14-1221_affen24de_7fa400657e61-plugins.zip (a46ee8b5140f706481182f7d3f253fcc)
+0003.143 (0) Recording as successfully uploaded: backup_2018-03-14-1221_affen24de_7fa400657e61-themes.zip (b439f9d6c3c20055f6343687c106363d)
+0003.146 (0) Recording as successfully uploaded: backup_2018-03-14-1221_affen24de_7fa400657e61-uploads.zip (8729d037ad755395a79f37e516e39451)
+0003.149 (0) Recording as successfully uploaded: backup_2018-03-14-1221_affen24de_7fa400657e61-others.zip (c3a8bd5cd5d036e15ef3e25d8395dfbd)
+0003.152 (0) Recording as successfully uploaded: backup_2018-03-14-1221_affen24de_7fa400657e61-db.gz (50099d749840cb18191e6213934ea6e5)
+0003.154 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0003.155 (0) Resume backup (7fa400657e61, 0): finish run
+0003.157 (0) Decremented the semaphore (fd) by 1
+0003.158 (0) Semaphore (fd) unlocked
+0003.158 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0003.162 (0) No email will/can be sent - the user has not configured an email address.
+0003.162 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Wed, 14 Mar 2018 12:26:43 +0000 on http://thiele.ikt.khk.ee/wordpress
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-693.5.2.el7.x86_64 #1 SMP Fri Oct 20 20:32:50 UTC 2017 x86_64) MySQL: 5.6.38 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.2M | 18M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.186 (1) Free space on disk containing Updraft's temporary directory: 372613.5 MB
+0000.187 (1) This backup task (7fa400657e61) is either complete or began over 2 days ago: ending (1521030403.2394, ) (existing jobdata keys: )
